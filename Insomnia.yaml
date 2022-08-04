@@ -1,11 +1,11 @@
 _type: export
 __export_format: 4
-__export_date: 2022-08-04T21:01:03.669Z
+__export_date: 2022-08-04T21:10:48.936Z
 __export_source: insomnia.desktop.app:v2022.4.2
 resources:
   - _id: req_0a209904e0184e3d97838ffb6ba224e9
     parentId: wrk_501f30ba71b8496386b760530e79f82d
-    modified: 1659646817827
+    modified: 1659647417039
     created: 1659646272960
     url: "{{ _.baseURL }}/users"
     name: Create User
@@ -58,6 +58,40 @@ resources:
         description: ""
     authentication: {}
     metaSortKey: -1659646272910
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_af1fcd89f2b54fb1b271d7492a0dc5be
+    parentId: wrk_501f30ba71b8496386b760530e79f82d
+    modified: 1659647435198
+    created: 1659647338701
+    url: "{{ _.baseURL }}/todos"
+    name: Create Todo
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"title": "Finalizar desafio 1 de NodeJS",
+        	"deadline": "2022-08-04"
+        }
+    parameters: []
+    headers:
+      - id: pair_2fed87346bb74d69a6c0c524998f4730
+        name: username
+        value: rafa
+        description: ""
+      - name: Content-Type
+        value: application/json
+        id: pair_435c324b78a54003bea9d3d635fcf28a
+    authentication: {}
+    metaSortKey: -1659646272860
     isPrivate: false
     settingStoreCookies: true
     settingSendCookies: true

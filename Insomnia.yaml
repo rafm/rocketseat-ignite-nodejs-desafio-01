@@ -1,0 +1,72 @@
+_type: export
+__export_format: 4
+__export_date: 2022-08-04T20:53:58.891Z
+__export_source: insomnia.desktop.app:v2022.4.2
+resources:
+  - _id: req_0a209904e0184e3d97838ffb6ba224e9
+    parentId: wrk_501f30ba71b8496386b760530e79f82d
+    modified: 1659646387078
+    created: 1659646272960
+    url: "{{ _.baseURL }}/users"
+    name: Create User
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Rafael",
+        	"username": "rafa"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_fd15f1eeaa784c66a7b3a676d7683a49
+    authentication: {}
+    metaSortKey: -1659646272960
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_501f30ba71b8496386b760530e79f82d
+    parentId: null
+    modified: 1659646267164
+    created: 1659646267164
+    name: Ignite - NodeJS - Desafio 01
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: env_5b20f9c66d36a4f287245609eb2750d1513e9d85
+    parentId: wrk_501f30ba71b8496386b760530e79f82d
+    modified: 1659646303894
+    created: 1659646267182
+    name: Base Environment
+    data:
+      baseURL: localhost:3333
+    dataPropertyOrder:
+      "&":
+        - baseURL
+    color: null
+    isPrivate: false
+    metaSortKey: 1659646267182
+    _type: environment
+  - _id: jar_5b20f9c66d36a4f287245609eb2750d1513e9d85
+    parentId: wrk_501f30ba71b8496386b760530e79f82d
+    modified: 1659646267186
+    created: 1659646267186
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_0024ed1b0b784992ac7aa446645628da
+    parentId: wrk_501f30ba71b8496386b760530e79f82d
+    modified: 1659646267174
+    created: 1659646267174
+    fileName: Ignite - NodeJS - Desafio 01
+    contents: ""
+    contentType: yaml
+    _type: api_spec

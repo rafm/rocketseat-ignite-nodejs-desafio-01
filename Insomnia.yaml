@@ -1,11 +1,11 @@
 _type: export
 __export_format: 4
-__export_date: 2022-08-04T20:53:58.891Z
+__export_date: 2022-08-04T21:01:03.669Z
 __export_source: insomnia.desktop.app:v2022.4.2
 resources:
   - _id: req_0a209904e0184e3d97838ffb6ba224e9
     parentId: wrk_501f30ba71b8496386b760530e79f82d
-    modified: 1659646387078
+    modified: 1659646817827
     created: 1659646272960
     url: "{{ _.baseURL }}/users"
     name: Create User
@@ -41,6 +41,31 @@ resources:
     description: ""
     scope: collection
     _type: workspace
+  - _id: req_88ac115f39804832a3717c1d2dbbf434
+    parentId: wrk_501f30ba71b8496386b760530e79f82d
+    modified: 1659646815938
+    created: 1659646739650
+    url: "{{ _.baseURL }}/todos"
+    name: Todos
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_f27d6aa73043473796e340565da5e2c7
+        name: username
+        value: rafa
+        description: ""
+    authentication: {}
+    metaSortKey: -1659646272910
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
   - _id: env_5b20f9c66d36a4f287245609eb2750d1513e9d85
     parentId: wrk_501f30ba71b8496386b760530e79f82d
     modified: 1659646303894

@@ -1,11 +1,11 @@
 _type: export
 __export_format: 4
-__export_date: 2022-08-04T21:18:55.385Z
+__export_date: 2022-08-04T21:23:24.664Z
 __export_source: insomnia.desktop.app:v2022.4.2
 resources:
   - _id: req_0a209904e0184e3d97838ffb6ba224e9
     parentId: wrk_501f30ba71b8496386b760530e79f82d
-    modified: 1659647840712
+    modified: 1659648151972
     created: 1659646272960
     url: "{{ _.baseURL }}/users"
     name: Create User
@@ -43,7 +43,7 @@ resources:
     _type: workspace
   - _id: req_88ac115f39804832a3717c1d2dbbf434
     parentId: wrk_501f30ba71b8496386b760530e79f82d
-    modified: 1659646815938
+    modified: 1659648131804
     created: 1659646739650
     url: "{{ _.baseURL }}/todos"
     name: Todos
@@ -68,7 +68,7 @@ resources:
     _type: request
   - _id: req_af1fcd89f2b54fb1b271d7492a0dc5be
     parentId: wrk_501f30ba71b8496386b760530e79f82d
-    modified: 1659647848935
+    modified: 1659648150745
     created: 1659647338701
     url: "{{ _.baseURL }}/todos"
     name: Create Todo
@@ -102,7 +102,7 @@ resources:
     _type: request
   - _id: req_38ddf99e09f94835a6f92fbae18c5f48
     parentId: wrk_501f30ba71b8496386b760530e79f82d
-    modified: 1659647920701
+    modified: 1659648154633
     created: 1659647802439
     url: "{{ _.baseURL }}/todos/f8fc6c1c-3958-442d-9b74-42689ce45da2"
     name: Update Todo
@@ -126,6 +126,31 @@ resources:
         id: pair_140ee321def94286b68a209f5c91aec7
     authentication: {}
     metaSortKey: -1659646272810
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_843793d6b7684a8db7cdbe75576bd3a6
+    parentId: wrk_501f30ba71b8496386b760530e79f82d
+    modified: 1659648179464
+    created: 1659648074202
+    url: "{{ _.baseURL }}/todos/05424959-0d60-482f-abce-f5b2721094a3/done"
+    name: Complete Todo
+    description: ""
+    method: PATCH
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_798814c0a7bd4801894c0751ae33ab65
+        name: username
+        value: rafa
+        description: ""
+    authentication: {}
+    metaSortKey: -1659646272760
     isPrivate: false
     settingStoreCookies: true
     settingSendCookies: true
